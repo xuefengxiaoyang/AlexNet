@@ -1,4 +1,6 @@
 # AlexNet
 Use AlexNet to train own data
+
+
 我们初学TensorFlow，都是直接导入官方已经制作好的数据集训练，但是最后我们要应用到其他数据集，这时候就需要会训练自己的数据。
 文件夹AlexNet下包含了两个文件夹，四个python文件，TFRecord文件中保存了数据。net文件夹中保存了训练好的模型，可以直接运行TestModel.py进行测试。若需要训练自己的数据，需要在当前目录下新建一个sample文件夹，下面新建每一类的文件夹存放每一类别的数据，运行loadData.py进行数据转换。生成了TFRecord文件后，运行TrainModel.py就可训练网络。
